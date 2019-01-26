@@ -8,13 +8,19 @@ import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AuthService } from './auth/auth.service';
+import { HeaderComponent } from './dashboard/header/header.component';
+import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
+import { BodyComponent } from './dashboard/body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SignupComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeaderComponent,
+    SidebarComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
