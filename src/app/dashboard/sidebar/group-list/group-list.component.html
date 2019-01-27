@@ -1,0 +1,6 @@
+<article class="group-list">
+  <h2 class="group-list__title">Groups</h2>
+  <ul class="group-list__list">
+    <li *ngFor="let group of groups; let i = index;" [routerLink]="['/group', i]" routerLinkActive="item--active" class="item">{{ group.title }}</li>
+  </ul>
+</article>

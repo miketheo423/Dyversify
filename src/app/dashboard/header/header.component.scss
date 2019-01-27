@@ -1,0 +1,15 @@
+.dashboard__header {
+
+  &__ctas {
+    display: flex;
+    align-items: center;
+
+    .nav-item {
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      background-color: #272D2D;
+      margin-right: 8px;
+    }
+  }
+}

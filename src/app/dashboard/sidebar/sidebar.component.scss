@@ -1,0 +1,19 @@
+.sidebar__content {
+  color: #fff;
+  min-height: 100%;
+
+  &__header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .title {
+      padding-left: 24px;
+      letter-spacing: 4px;
+      font-size: 1.7rem;
+      text-transform: uppercase;
+      color: #84DCCF;
+    }
+  }
+}

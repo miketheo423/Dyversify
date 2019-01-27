@@ -1,3 +1,9 @@
-<p>
-  dashboard works!
-</p>
+<section class="dashboard">
+  <app-sidebar [groups]="groups" class="dashboard__sidebar"></app-sidebar>
+  <div class="dashboard__right">
+    <app-header class="dashboard__header"></app-header>
+    <main class="dashboard__body">
+        <router-outlet></router-outlet>
+    </main>
+  </div>
+</section>

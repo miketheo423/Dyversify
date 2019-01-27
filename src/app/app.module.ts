@@ -11,6 +11,9 @@ import { AuthService } from './auth/auth.service';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
 import { BodyComponent } from './dashboard/body/body.component';
+import { GroupListComponent } from './dashboard/sidebar/group-list/group-list.component';
+import { GroupComponent } from './dashboard/group/group.component';
+import { SongComponent } from './dashboard/group/song/song.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { BodyComponent } from './dashboard/body/body.component';
     DashboardComponent,
     HeaderComponent,
     SidebarComponent,
-    BodyComponent
+    BodyComponent,
+    GroupListComponent,
+    GroupComponent,
+    SongComponent
   ],
   imports: [
     BrowserModule,
